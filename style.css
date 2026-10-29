@@ -30,7 +30,6 @@ body {
     position: relative;
 }
 
-/* Yuqori o'ngdagi ijtimoiy tarmoq img teglari uchun uslub */
 .social-icons {
     position: absolute;
     top: 12px;
@@ -44,7 +43,6 @@ body {
     width: 16px;
     height: 16px;
     object-fit: contain;
-    /* Agar ikonkalaringiz qora bo'lsa va ularni oq qilish kerak bo'lsa: filter: brightness(0) invert(1); */
 }
 
 .img-container {
@@ -53,7 +51,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     border: 4px solid #ffffff;
-    margin: 15px auto 10px auto; /* Marginsiz yoki musbat qiymat beramiz */
+    margin: 15px auto 10px auto; 
     background: #e0e0e0;
 }
 
